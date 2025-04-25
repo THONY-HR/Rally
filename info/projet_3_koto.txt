@@ -1,0 +1,27 @@
+Rallye:
+	language: c++
+	base: mysql
+
+special = course: point de depart et point arriver
+lalana lava misy parcours kely maromaro = special
+concurant: manana groupe specifique ny concurant 1
+
+fenetre 1 : saisie rallye
+	->special 10
+	-> concurant
+fentre 2: saisie temps
+	->special(liste depopulate)
+	->concurant: firy milliseconde
+fenetre 3: classement rallye
+	->temps ordre croissant
+	->ordre par groupe
+
+
+COMPILATION:
+// g++ Main.cpp -o hello.exe -mwindows -luser32
+// g++ Main.cpp -o hello.exe -I C:/SFML-2.5.1/include
+// g++ Main.cpp -o hello.exe -I C:/SFML-2.5.1/include/SFML -lsfml-graphics -lsfml-window -lsfml-system
+// g++ Main.cpp -o hello.exe -I C:/SFML-2.5.1/include -L C:/SFML-2.5.1/lib -lsfml-graphics -lsfml-window -lsfml-system
+
+
+
